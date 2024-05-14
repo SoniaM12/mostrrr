@@ -1,0 +1,313 @@
+body {
+    background-image: url(background.png);
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 30px; /* Unifica la specifica di padding */
+}
+
+header a {
+    color: #FFF;
+}
+header a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/*.nav-links a:hover {
+    text-decoration: underline;
+}*/
+
+header nav {
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 30px; 
+    color: #FFF;
+    margin-right: 30px;
+}
+
+header nav ul li a,
+header h1 {
+    font-family: "Molengo";
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links ul li a {
+    text-decoration: underline;
+    color: black;
+}
+
+.elenco-artisti a {
+    color: black; /* Imposta il colore del testo dei link a bianco */
+    text-decoration: underline; 
+}
+
+.elenco-artisti a:hover {
+    color: black; /* Cambia il colore del testo dei link a bianco quando vengono passati sopra */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Miriam Libre";
+    font-size: 27px;
+    padding: 25px;
+}
+
+.line1 {
+    border: none;
+    border-top: 2px solid black; /* Aggiunge una linea orizzontale */
+    flex-grow: 1; /* Fa espandere la linea per occupare lo spazio disponibile */
+    margin: 0 2px; /* Aggiunge spazio ai lati della linea */
+}
+
+
+.line {
+    flex: 0 0 auto;
+    border-top: 2px solid black;
+    margin: 0 10px;
+}
+
+h1 {
+    color: #000;
+    font-family: "Overpass Mono";
+    font-size: 60px;
+    font-style: medium;
+    font-weight: 500;
+    line-height: 90%; /* 54px */
+    letter-spacing: 2.4px;
+    padding-left: 30px;
+}
+
+h2 {
+    padding-left: 40px;
+    color: #000;
+    font-family: "Overpass Mono";
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    line-height:  54px
+}
+
+.intro p{
+    padding-left: 80px;
+    width: 723px;
+    height: 406px;
+    
+}
+
+p {
+    color: #000;
+    font-family: "Mplus 1p";
+    font-size: 25px;
+    font-style: normal;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+    width: 500px;
+
+}
+
+.elenco-artisti p {
+    color: #000;
+    font-family: "Overpass Mono";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 1.4px;
+    padding-left: 50px ;
+}
+
+.rectangle {
+    width: 493px;
+    height: 350px;
+    border-radius: 33px;
+    background-color: rgba(255, 253, 253, 0.1);
+    margin-top: 10px;
+}
+
+
+.quadrato p {
+    width: 434px;
+    height: 336px;
+    justify-content: center;
+    text-align: left;
+    color: #000;
+    font-family: "Mplus 1p";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px
+}
+
+.testata {
+    display: flex; /* Permette di allineare il titolo e la linea */
+    align-items: center; /* Allinea il contenuto verticalmente al centro */
+}
+
+.linea {
+    flex: 1; /* Per far estendere la linea fino al margine destro */
+    height: 2px;
+    background-color: black;
+}
+
+.contenitore {
+    display: flex;
+}
+
+.elenco-artisti {
+    flex: 1;
+    margin-right: 10px; /* Aggiunge spazio tra gli elementi se necessario */
+}
+
+.rectangle {
+    flex: 1;
+}
+
+.contenitore2 {
+    display: flex;
+}
+
+.linea-verticale {
+    width: 2px;
+    background-color: black;
+    margin-left: 40px;
+}
+.colonna {
+    flex: 1;
+    position: relative;
+    padding-left: 50px;
+}
+
+.colonna p {
+    margin-top: 0;
+    padding-left: 10px; /* Aumentato per far spazio alla linea */
+}
+
+.testolab p { 
+    width: 700px;
+    height: 470px;
+    padding-left: 80px;
+}
+.testolab img{
+    width: 400px;
+    height: 600px;
+}
+.imgtwo-little-girls-painting-with-aquarelle-paper-table1.png, .testolab {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px; 
+}
+
+.vintage-effect {
+    filter: sepia(70%) contrast(120%) brightness(90%) saturate(120%);
+}
+
+
+.info {
+    display: flex;
+}
+
+.info img {
+    margin-left: 40px;
+}
+
+.info p {
+    margin-left: 68px;
+    width: 304px;
+    height: 496px;
+    color: #000;
+    font-family: "Overpass Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%; /* 18px */
+    letter-spacing: 0.8px
+}
+
+.vintage-effect2 {
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.bio {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 300px;
+}
+
+.bio p {
+    width: 715px;
+    height: 406px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Mplus 1p";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 116% */
+    letter-spacing: 0.5px;
+
+
+}
+.grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 80px
+}
+
+ .grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+}
+
+.linea-verticale2, .linea2 {
+    width: 2px;
+    background-color: black;
+    margin-left: 30px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: right;
+    margin-top: 500px;
+}
+
+.footer-links a {
+    color: white;
+    font-family: Molengo;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    margin-right: 30px; /* Aggiunge spazio tra i link */
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
